@@ -3,7 +3,7 @@
 //main file h humre server.js
 import dotenv from "dotenv";
 dotenv.config({
-  path:'./.env'
+  path: "./.env",
 });
 import express from "express";
 import PostRoute from "./routes/post.route.js";
@@ -32,6 +32,14 @@ app.use(express.json());
 
 //now jo mera route h ushe use krne ke liye  --->mtlb call hogi asa /api/v1/routename
 app.use("/api/v1", PostRoute);
+
+//now understand to implement the server -->mean / pe kuch dekhe is done
+app.get("/", (req, res) => {
+  res.send({
+    activeStatus: true,
+    error: false,
+  });
+});
 
 //making the server
 app.listen(8000, () => {
