@@ -19,7 +19,7 @@ connectWithMongoose();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://full-stack-qb.netlify.app"],
   })
 ); //vahi cors policy ke liye as iske use krke isne saare origin ko allow kr diya jo ab backend pe request de skti h
 
