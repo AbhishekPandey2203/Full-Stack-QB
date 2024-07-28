@@ -1,0 +1,58 @@
+.Single-Post {
+  padding: 1rem 2rem;
+  max-width: 60rem;
+  margin: auto;
+}
+
+.Single-Post .topic {
+  color: lightseagreen;
+  min-height: 100px;
+  border: 1px solid red;
+  gap:1.5rem;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  
+  
+}
+
+.Single-Post .question {
+  color: rgba(0, 0, 0, 0.8);
+  min-height: 100px;
+  border: 1px solid red;
+  gap:1.5rem;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.Single-Post .answer {
+  color: gray;
+  min-height: 100px;
+  border: 1px solid red;
+  gap:1.5rem;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.Single-Post .btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.Single-Post .btn {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 25px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Single-Post .btn-delete {
+  background-color: tomato;
+}
+
+.Single-Post .btn-update {
+  background-color: rgb(15, 138, 215);
+}
